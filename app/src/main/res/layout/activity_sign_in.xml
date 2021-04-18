@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignIn"
+    android:paddingTop="@dimen/dim15"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim48"
+        android:paddingLeft="@dimen/dim30">
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/ic_back_button"
+         android:layout_gravity="center"
+         android:id="@+id/back_signIn"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dim100"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="@dimen/dim280"
+        android:layout_height="@dimen/dim48"
+        android:background="@drawable/edit_text_design"
+        android:layout_marginTop="@dimen/dim48"
+        android:layout_gravity="center"
+        android:paddingLeft="@dimen/dim5"
+        android:hint="User Name"
+        android:id="@+id/user_signIn"
+        android:drawablePadding="@dimen/dim5"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_person_drawable_left"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/pass_signIn"
+        android:layout_width="@dimen/dim280"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/dim30"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:background="@drawable/edit_text_design"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/sing_in_pass"
+            android:hint="password"
+            android:paddingRight="@dimen/dim5"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            android:paddingLeft="@dimen/dim15"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="forget password?"
+        android:textColor="#00A4F6"
+        android:layout_marginTop="@dimen/dim5"
+        android:layout_marginLeft="@dimen/dim80"
+        android:id="@+id/forget_pass"
+        />
+    <Button
+        android:id="@+id/signIn_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dim120"
+        android:background="@drawable/button_disign"
+        android:layout_width="@dimen/dim280"
+        android:text="Sing In"
+        android:textSize="20sp"
+        android:onClick="singIn"
+        android:textColor="#FFFFFF"
+        android:layout_height="@dimen/dim48" />
+</LinearLayout>

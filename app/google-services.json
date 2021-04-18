@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "586800202315",
+    "firebase_url": "https://italent2-fe264.firebaseio.com",
+    "project_id": "italent2-fe264",
+    "storage_bucket": "italent2-fe264.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586800202315:android:7e46daf492c16fa7",
+        "android_client_info": {
+          "package_name": "com.example.italent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586800202315-0h51l85kk1pi9r8uf9ktpapam271gtc2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.italent",
+            "certificate_hash": "7390a016ce34de41d1b2d147d17e2a70f6ed4c84"
+          }
+        },
+        {
+          "client_id": "586800202315-bnvggutvn7phs335l0udmhpkrf1na5bi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRFBFzWWxSowEGR2fhVAGJ3Cpyk8QgiOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586800202315-bnvggutvn7phs335l0udmhpkrf1na5bi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

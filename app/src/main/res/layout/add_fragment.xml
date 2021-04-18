@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim60"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="2dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_back_button"
+                android:layout_marginLeft="@dimen/dim10"
+                android:layout_marginRight="@dimen/dim10"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="COMPETTION"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/dim10"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim120"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim50"
+        android:background="@drawable/button_disign"
+        android:text="select media"
+        android:textColor="#fff"
+        android:layout_marginBottom="@dimen/dim120"
+        android:layout_marginRight="@dimen/dim30"
+        android:layout_marginLeft="@dimen/dim30"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

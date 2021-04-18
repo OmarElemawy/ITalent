@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".home.VideoActivity"
+    android:orientation="vertical"
+    android:paddingRight="13dp"
+    android:paddingLeft="13dp"
+    android:paddingTop="@dimen/dim5">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim200"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="@dimen/dim5"
+        app:cardCornerRadius="@dimen/dim10"
+        android:background="#fff"
+        android:id="@+id/card_home"
+        >
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/video_show"
+        />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dim10"
+        android:id="@+id/more_videos"
+        >
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
